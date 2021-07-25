@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="js.js" ></script>
 </head>
-<body>
+<body onload="load()">
+
+    <button class="b" type="button" onclick="clik()">Clicar</button>
+    <h3 id="agradecimento" onclick="redirecionar()"></h3>
+    <p  id="passeoma" onmouseover="trocar(this)" onmouseout="voltar(this)">pase o mouser aqui </p>
+    <p  id="passeoma2" onmouseover="trocar(this)" onmouseout="voltar(this)">pase o mouser aqui </p>
+
+    <select onchange="functionOnchag(this)">
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+    </select>
     
 </body>
 </html>
